@@ -23,3 +23,30 @@ explorar as opções disponíveis, como "Encontrar Partidas", "Criar Partida" e 
 se o usuário estiver interessado em participar, ele tem que confirmar sua presença na partida e aguardar a confirmação do organizador.
 A opção "Criar partidas" consiste em selecionar a opção "Criar Partida" e preencher as informações necessárias, como data, horário, localização e número de jogadores necessários. Após criar uma partida, você terá a opção de convidar seus amigos para participarem via função de conivte por e-mail ou compartilhamento em redes sociais. Caso você precise encontrar um local adequado para realizar sua partida, utilize a opção "Locais Disponíveis" , o aplicativo mostrará uma lista de espaços esportivos próximos, com informações sobre disponibilidade, preços e serviços oferecidos. Após confirmar sua presença em uma partida, mantenha-se atento às atualizações e comunicações do organizador através do aplicativo , utilize o sistema de mensagens integrado para se comunicar com outros participantes e combinar detalhes adicionais da partida(ele irá gerar o link do grupo dessa pelada) , o aplicativo também terá uma opção de avaliar a experiencia nas partidas.
 
+[APRESENTACAO FOOTINDER1.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0385200-footinder/files/14973063/APRESENTACAO.FOOTINDER1.pdf)
+
+STAKEHOLDERS
+[Entendimento 02 - Mapa de Stakeholders-1.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0385200-footinder/files/14973064/Entendimento.02.-.Mapa.de.Stakeholders-1.pdf)
+
+fluxograma e CSD:
+https://miro.com/app/board/uXjVKUGBvMY=/?share_link_id=864954897062
+[FLUXOGRAMA e KANBAN.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0385200-footinder/files/14973088/FLUXOGRAMA.e.KANBAN.pdf)
+
+
+PERSONAS:
+Meu nome é Otavio, tenho 42 anos e sou dono de uma quadra society em Belo Horizonte. Com o Footinder, posso cadastrar o endereço e o nome da minha quadra e mostrar a disponibilidade para quem quiser marcar algum jogo amador no local onde sou dono. Dentro do aplicativo mostra quais os horários que tenho disponível e qual seria o preço da minha quadra, e isso deixa o serviço muito mais prático. 
+
+
+Meu nome é Lucas, tenho 21 anos e busco uma turma para jogar futebol para melhorar a minha saúde. De preferência, procuro jogos perto da minha casa. Com o Footinder, consigo filtrar jogos amadores ou quadras por perto, e isso deixa muito mais fácil para jogar futebol e conhecer pessoas novas. 
+
+
+Nosso time chama BH FC, time amador na capital mineira e procuramos outro time amador para realizarmos um amistoso contra o nosso time. No Footinder, podemos procurar times amadores cadastrados no site para conseguirmos marcar o jogo e também procurar campos/quadras disponíveis em uma região próxima para ambos os times.
+
+WIREFRAMES 
+https://marvelapp.com/prototype/10bbb644
+
+
+
+
+
+
