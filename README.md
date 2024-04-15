@@ -45,6 +45,36 @@ Nosso time chama BH FC, time amador na capital mineira e procuramos outro time a
 WIREFRAMES 
 https://marvelapp.com/prototype/10bbb644
 
+REQUISITOS FUNCIONAIS E NAO FUNCIONAIS:
+Requisitos Funcionais:
+
+Cadastro de Usuário: Os usuários devem poder se cadastrar no site, fornecendo informações como nome, e-mail e senha.
+
+Login de Usuário: Os usuários cadastrados devem poder fazer login no site usando suas credenciais de conta.
+
+Busca por Partidas: Os usuários devem poder buscar partidas de futebol disponíveis em sua região, filtrando por localização, data e horário.
+
+Visualização de Detalhes da Partida: Os usuários devem poder visualizar detalhes completos de uma partida específica, incluindo localização, data, horário, número de jogadores necessários, etc.
+
+Confirmação de Participação: Os usuários devem poder confirmar sua participação em uma partida específica após encontrar uma que desejam jogar.
+
+Gerenciamento de Perfil: Os usuários devem poder editar e atualizar suas informações de perfil, incluindo foto, nome, informações de contato, etc.
+
+Notificações: Os usuários devem receber notificações sobre novas partidas disponíveis, confirmações de participação e outras atualizações importantes relacionadas ao site.
+
+Requisitos Não Funcionais:
+
+Segurança: O site deve garantir a segurança dos dados dos usuários, protegendo as informações pessoais e de login por meio de criptografia e outras medidas de segurança.
+
+Desempenho: O site deve ser rápido e responsivo, proporcionando uma experiência de usuário suave, mesmo durante picos de tráfego.
+
+Compatibilidade: O site deve ser compatível com uma variedade de dispositivos e navegadores, garantindo uma experiência consistente para todos os usuários, independentemente do dispositivo que estão usando.
+
+Usabilidade: O site deve ser intuitivo e fácil de usar, com uma interface de usuário amigável que permita aos usuários navegar e encontrar partidas facilmente.
+
+Disponibilidade: O site deve ter uma alta disponibilidade, minimizando o tempo de inatividade e garantindo que os usuários possam acessá-lo sempre que precisarem.
+
+Escalabilidade: O site deve ser projetado para ser escalável, capaz de lidar com um número crescente de usuários e partidas sem comprometer o desempenho.
 
 
 
