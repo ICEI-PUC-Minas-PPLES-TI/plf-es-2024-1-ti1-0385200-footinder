@@ -4,12 +4,11 @@ Nosso projeto consiste em auxiliar pessoas que buscam jogar futebol de forma ama
 
 ## Alunos integrantes da equipe
 
-* Bernardo Carvalho Mascarenhas
+
 * Elektra Yassmin Almeida El Awar
-* Lucas Moreira Custódio
 * Matheus Fróes Vieira Campos
 * Matheus Panicalli Sobreira
-* Pedro Henrique Paiva de Castro
+
 
 ## Professores responsáveis
 
