@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: FOOTINDER
+title: 
 authors:
   - family-names: Panicalli Sobreira
     given-names: Matheus
@@ -16,7 +16,7 @@ authors:
     given-names: Gabriel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Hanne Soares de Andrade
+    family-names: Hanne Soares de Andrade 
     given-names: Michelle
 keywords:
   - Footinder
@@ -24,5 +24,37 @@ keywords:
 repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti1-0385200-footinder
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2024-07-30
+date-released: 2024-06-30
 =======
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: 
+authors:
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names:
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  - 
+  - 
+repository-code: 
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14
+>>>>>>> 576e4073eb686b7caee5801aac8f95491eb4d605
