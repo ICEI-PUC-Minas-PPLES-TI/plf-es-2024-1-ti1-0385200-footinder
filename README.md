@@ -75,6 +75,9 @@ Disponibilidade: O site deve ter uma alta disponibilidade, minimizando o tempo d
 
 Escalabilidade: O site deve ser projetado para ser escalável, capaz de lidar com um número crescente de usuários e partidas sem comprometer o desempenho.
 
+[Documentacao FOOTINDER.pdf](https://github.com/user-attachments/files/16041889/Documentacao.FOOTINDER.pdf)
+
+
 
 
 
