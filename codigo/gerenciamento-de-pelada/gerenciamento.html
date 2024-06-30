@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="gdp css/gerenciamento.css" rel="stylesheet">
+    <link rel="icon" href="../gerenciamento-de-pelada/gdp img/icon-footinder.jpeg">
+    <script src="https://kit.fontawesome.com/5c41d7d3fb.js" crossorigin="anonymous"></script>
+    <title>Gerenciamento de peladas</title>
+</head>
+<body>
+    <header>
+        
+        <div class="voltar">
+            <img src="gdp img/turn.icon.png">
+            <a href="../Home Page Footinder/homepage.html">Retornar</a>
+        </div>
+
+        <h1>Gerenciamento de peladas</h1>
+    </header>
+
+    <main>
+        
+       
+<div class="Lista">
+    <h2>Lista:</h2>
+    <ul>
+      <li contenteditable="true">Jogador 1</li>
+    </ul>
+    <button class="save-button" onclick="editar_lista()">Editar lista</button>
+
+  </div>
+        
+        <div class="inputs">
+            <form>
+                <div class="input-field">
+                    <label for="Local">Nome da pelada:</label>
+                <input type="text" id="name" placeholder="Nome da pelada:" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Local">Local:</label>
+                <input type="text" id="local" placeholder="Informe o local" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Atletas">Número de atletas:</label>
+                <input type="number" id="number" placeholder="Informe o número de atletas necessários" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Data">Data:</label>
+                <input type="date" id="day" placeholder="Informe a data" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Horário">Horário:</label>
+                    <input type="time" id="hour" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Duração">Duração da pelada::</label>
+                <input type="text" id="duration" placeholder="Duração da pelada:" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Estilo_de_quadra">Estilo de quadra</label>
+                    <select name="quadras" id="stadium">
+                        <option disabled selected>Qual é o estilo da quadra?</option>
+                        <option>Futsal</option>
+                        <option>Society</option>
+                        <option>Campo</option>
+                    </select>
+                </div>
+                
+                <div class="input-field">
+                    <label for="Número do administrador">Número do administrador:</label>
+                <input type="text" id="telephone" placeholder="Informe o número do administrador" />    
+            </div>
+
+                <div class="input-field-image">
+                    <label class="picture" for="image">
+                        <span class="picture_image">Selecione uma foto do local</span>
+                        <input type="file" accept="image/*" id="image"/>
+                        
+                    </label>
+                </div>
+                
+                <div class="botão">
+                <button type="submit" id="submit" onclick="editarPelada()">Salvar</button>
+                </div>
+
+                |<div class="excluir">
+                    <button type="reset" id="exclusão" onclick="excluir()">Excluir Pelada</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="Description">
+            <h2 class="centered">Descrição da Pelada:</h2>
+              <textarea id="description_pelada" name="description" rows="4" cols="50"></textarea>
+    </main>
+
+    <script src="gdp js/gerenciamento.js"></script>
+    
+</body>
+</html>
