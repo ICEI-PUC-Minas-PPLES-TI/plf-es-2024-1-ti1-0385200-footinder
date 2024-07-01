@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    font-family: 'Roboto', sans-serif;
+    color: #2F2E33;
+    height:100%;  
+}
+
+header {
+    background-color: #343F4B;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header h2{
+    background-color: #06E403;
+    color: white;
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 25px 50px;
+}
+
+nav {
+    padding-top: 35px;
+    text-align: right;
+    padding-left: 900px;
+}
+
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( #6ab7f5 , #fff);
+    padding-top: 200px;
+    padding-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Cards*/
+
+    .partida {
+        border: 5px solid #0c1616;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 6px;
+        height: 300px;
+        width: 500px;
+        gap: 90px;
+        margin: 20px;
+        background-color: #343F4B;
+    }
+    
+     .partida div {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+     .partida div .data {
+        color: #fff;
+        border: 1px solid #8b949e;
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+    }
+    
+     .partida div .local {
+        color: #47a6f0;
+    }
+    
+     .partida button {
+        width: 170px;
+        margin: 0 auto;
+        height: 40px;
+        border-radius: 6px;
+        background-color: #06E403;
+        color: white;
+        cursor: pointer;
+        border: 2px solid #074406;
+    }
+    
+    .integrantes {
+        color: white;
+    }
+    
+    /*Fim cards*/

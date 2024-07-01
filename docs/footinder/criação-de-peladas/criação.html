@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cdp css/criação.css" rel="stylesheet">
+    <link rel="icon" href="../criação-de-peladas/cdp img/icon-footinder.jpeg">
+    <title>Criação de peladas</title>
+</head>
+<body>
+    <header>
+        <h1>Criação de partidas</h1>
+    </header>
+
+    <main>
+        
+       
+<div class="Lista">
+    <h2>Lista:</h2>
+    <ul>
+      <li contenteditable="true">Jogador 1</li>
+    </ul>
+    <button class="save-button">Editar lista</button>
+
+  </div>
+        
+        <div class="inputs">
+            <form>
+                <div class="input-field">
+                    <label for="Local">Nome da pelada:</label>
+                <input type="text" id="name" placeholder="Nome da pelada:" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Local">Local:</label>
+                <input type="text" id="local" placeholder="Informe o local" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Atletas">Número de atletas:</label>
+                <input type="number" id="number" placeholder="Informe o número de atletas necessários" />
+                </div>
+                
+                <div class="input-field">
+                    <label for="Data">Data:</label>
+                <input type="date" id="day" placeholder="Informe a data" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Horário">Horário:</label>
+                    <input type="time" id="hour" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Duração">Duração da pelada::</label>
+                <input type="text" id="duration" placeholder="Duração da pelada:" />
+                </div>
+
+                <div class="input-field">
+                    <label for="Estilo_de_quadra">Estilo de quadra</label>
+                    <select name="quadras" id="stadium">
+                        <option disabled selected>Qual é o estilo da quadra?</option>
+                        <option>Futsal</option>
+                        <option>Society</option>
+                        <option>Campo</option>
+                    </select>
+                </div>
+                
+                <div class="input-field">
+                    <label for="Número do administrador">Número do administrador:</label>
+                <input type="text" id="telephone" placeholder="Informe o número do administrador" />    
+            </div>
+
+                <div class="input-field-image">
+                    <label class="picture" for="image">
+                        <span class="picture_image">Selecione uma foto do local</span>
+                        <input type="file" accept="image/*" id="image"/>
+                        
+                    </label>
+                </div>
+                
+                <div class="botão">
+                <button type="submit" id="submit" onclick="salvar()">Criar</button>
+                </div>
+
+                |<div class="cancelar">
+                    <a href="../Home Page Footinder/homepage.html">Cancelar</a>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="Description">
+            <h2 class="centered">Descrição da Pelada:</h2>
+              <textarea id="description_pelada" name="description" rows="4" cols="50"></textarea>
+    </main>
+
+    <script src="cdp js/criação.js"></script>
+    
+</body>
+</html>

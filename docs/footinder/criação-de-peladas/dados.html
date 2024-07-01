@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Visualizador de Local Storage</title>
+</head>
+<body>
+  <h1>Peladas registradas no Local Storage:</h1>
+  <div id="localStorageList"></div>
+
+  <script>
+    // Obter a lista de dados registrados no local storage
+    var localStorageList = document.getElementById('localStorageList');
+    for (var i = 0; i < localStorage.length; i++) {
+      var key = localStorage.key(i);
+      var value = localStorage.getItem(key);
+      var listItem = document.createElement('div');
+      listItem.textContent = key + ': ' + value;
+      localStorageList.appendChild(listItem);
+      localStorageList.appendChild(document.createElement('br'));
+    }
+  </script>
+</body>
+</html>
